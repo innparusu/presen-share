@@ -33,9 +33,14 @@ gem 'jbuilder', '~> 2.5'
 # Use haml
 gem 'haml-rails'
 
+# Use pry
 gem 'pry'
 gem 'pry-rails'
 gem 'pry-doc'
+
+gem 'devise'
+
+gem 'omniauth-twitter'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
