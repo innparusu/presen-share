@@ -38,9 +38,12 @@ gem 'pry'
 gem 'pry-rails'
 gem 'pry-doc'
 
+# User authentication
 gem 'devise'
-
 gem 'omniauth-twitter'
+
+# Image convert
+gem 'rmagick', require: 'RMagick'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
