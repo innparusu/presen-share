@@ -1,0 +1,9 @@
+= form_for(@slide) do |f|
+  .field
+    = f.label :title, 'title'
+  .field
+    = f.text_field :title
+  .field
+    = f.file_field :pdf
+  .field
+    = f.submit "Upload"
