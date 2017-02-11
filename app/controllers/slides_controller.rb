@@ -15,4 +15,8 @@ class SlidesController < ApplicationController
     return redirect_to @slide if @slide.save
     render new
   end
+
+  def show
+    @slide = Slide.find(params[:id])
+  end
 end
