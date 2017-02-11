@@ -1,3 +1,5 @@
+- @slide.errors.full_messages.each do |msg|
+  = msg
 = form_for(@slide) do |f|
   .field
     = f.label :title, 'title'
